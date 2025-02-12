@@ -10,6 +10,7 @@ import (
 
 var cafeList = map[string][]string{
     "moscow": []string{"Мир кофе", "Сладкоежка", "Кофе и завтраки", "Сытый студент"},
+    "tula": []string{},
 }
 
 func mainHandle(w http.ResponseWriter, req *http.Request) {
